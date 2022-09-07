@@ -1,12 +1,12 @@
-package factory.ipd.factorymethod.impl;
+package com.factorymethod.impl;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 import java.util.Properties;
 
-import factory.ipd.factorymethod.util.PropertiesUtil;
-import factory.ipd.factorymethod.IDBAdapter;
+import com.factorymethod.util.PropertiesUtil;
+import com.factorymethod.IDBAdapter;
 
 public class MySQLDBAdapter implements IDBAdapter {
 
@@ -21,8 +21,7 @@ public class MySQLDBAdapter implements IDBAdapter {
     static{
         //bloque para registrar el driver de mySQL
         try{
-           //TODO: new com.mysql.jdbc.Driver();
-            
+            new com.mysql.jdbc.Driver();
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -1,4 +1,4 @@
-package factory.ipd.factorymethod;
+package com.factorymethod;
 
 import java.sql.Connection;
 

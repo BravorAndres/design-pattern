@@ -1,8 +1,8 @@
-package factory.ipd.factorymethod.impl;
+package com.factorymethod.impl;
 
 import java.sql.Connection;
 
-import factory.ipd.factorymethod.IDBAdapter;
+import com.factorymethod.IDBAdapter;
 
 public class OracleDBAdapter implements IDBAdapter{
 

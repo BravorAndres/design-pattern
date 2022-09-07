@@ -1,4 +1,4 @@
-package factory.ipd.factorymethod.util;
+package com.factorymethod.util;
 
 
 import java.io.InputStream;
