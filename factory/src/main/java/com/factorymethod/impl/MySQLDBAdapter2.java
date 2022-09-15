@@ -4,7 +4,7 @@ import java.sql.Connection;
 
 import com.factorymethod.IDBAdapter;
 
-public class OracleDBAdapter implements IDBAdapter{
+public class MySQLDBAdapter2 implements IDBAdapter{
 
     @Override
     public Connection getConnection() {

@@ -8,7 +8,7 @@ import java.util.Properties;
 import com.factorymethod.util.PropertiesUtil;
 import com.factorymethod.IDBAdapter;
 
-public class MySQLDBAdapter implements IDBAdapter {
+public class MySQLDBAdapter1 implements IDBAdapter {
 
     private static final String DB_PROPERTIES = "META-INF/DBMySQL.properties";
 

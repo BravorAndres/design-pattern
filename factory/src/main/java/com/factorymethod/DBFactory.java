@@ -1,8 +1,8 @@
 package com.factorymethod;
 
 import java.util.Properties;
-import com.factorymethod.impl.MySQLDBAdapter;
-import com.factorymethod.impl.OracleDBAdapter;
+import com.factorymethod.impl.MySQLDBAdapter1;
+import com.factorymethod.impl.MySQLDBAdapter2;
 import com.factorymethod.util.PropertiesUtil;
 
 
