@@ -1,5 +1,5 @@
 package com.factorymethod;
 
-public class DBType {
-
+public enum DBType {
+    MySQL1, MySQL2,
 }

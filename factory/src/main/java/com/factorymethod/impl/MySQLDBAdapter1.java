@@ -2,7 +2,6 @@ package com.factorymethod.impl;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.Statement;
 import java.util.Properties;
 
 import com.factorymethod.util.PropertiesUtil;
@@ -10,7 +9,7 @@ import com.factorymethod.IDBAdapter;
 
 public class MySQLDBAdapter1 implements IDBAdapter {
 
-    private static final String DB_PROPERTIES = "META-INF/DBMySQL.properties";
+    private static final String DB_PROPERTIES = "META-INF/DBMySQL1.properties";
 
     private static final String DB_NAME_PROP = "dbname";
     private static final String DB_HOST_PROP = "host";
