@@ -9,7 +9,7 @@ public class ServiceStackAbstractFactory  {
     
     public static IServiceStackAbstractFactory createServiceFactory() {
         Properties props = PropertiesUtil.loadProperty(
-                "META-INF/AbstractFactoryConfiguration.properties");
+                "abstractfactory/META-INF/AbstractFactoryConfiguration.properties");
         String factoryClass = 
                 props.getProperty("serviceProductImplClass");
         try {
