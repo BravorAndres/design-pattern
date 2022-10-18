@@ -13,7 +13,7 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <java.version>8</java.version>
+    <java.version>11</java.version>
   </properties>
 
   <dependencies>
