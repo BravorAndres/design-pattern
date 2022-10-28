@@ -1,33 +1,12 @@
 package com.patronbuilder.app;
 
-<<<<<<< HEAD
-=======
 import java.util.function.Function;
 
-import com.patronbuilder.app.Modelo.Persona;
-import com.patronbuilder.app.dto.Empleyee;
+import com.patronbuilder.app.dto.*;;
 
-import lombok.Builder;
 
->>>>>>> builder
-/**
- * Hello world!
- *
- */
 public class App 
 {
-<<<<<<< HEAD
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-=======
-
-    public void modificar(){
-        Persona person1 = new Persona(new StringBuilder("Alvar0"), new StringBuilder("Jaramillo"), 23);
-        int edadPerson = person1.getEdad();
-        edadPerson = 78;
-        System.out.println(person1.getEdad());
-    }
 
     public static void main( String[] args )
     {
@@ -43,6 +22,5 @@ public class App
         System.out.println(emp.getContacts());
         System.out.println(emp.getPhones());
         System.out.println(emp.getAge());
->>>>>>> builder
     }
 }
