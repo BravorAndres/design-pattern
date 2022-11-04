@@ -18,9 +18,16 @@ public class App
                                                      .addContacts(new StringBuilder("boromir"), new StringBuilder("3099"), new StringBuilder("86767"), new StringBuilder("Andriod"))
                                                      .addPhones(new StringBuilder("7865867"), new StringBuilder("656"), new StringBuilder("Iphone"))
                                                      .build();
-        System.out.println(emp.getName());
+    /*    System.out.println(emp.getName());
         System.out.println(emp.getContacts());
         System.out.println(emp.getPhones());
-        System.out.println(emp.getAge());
+        System.out.println(emp.getAge()); */ 
+        
+        Empleyee emp2 = new Empleyee();
+
+        emp2.setAddres(new Addres(new StringBuilder("jknkbj"), new StringBuilder("gvhjgv"), new StringBuilder("igvhgvhjg"), new StringBuilder("kjhvkg")));
+
+        System.out.println(emp2.getAddres().getCity());
     }
+        
 }
