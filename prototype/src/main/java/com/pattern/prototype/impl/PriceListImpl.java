@@ -45,5 +45,9 @@ public class PriceListImpl implements IPrototype<PriceListImpl>{
         return "PriceListImpl{ListName = "+listName+", Products=\n"+items+"}";
     }
 
+    public void addProductItem(ProductItem item){
+        this.products.add(item);
+    }
+
     
 }
