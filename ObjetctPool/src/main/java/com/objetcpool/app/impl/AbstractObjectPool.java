@@ -5,8 +5,8 @@ import java.util.Calendar;
 import java.util.Stack;
 import java.util.UUID;
 
+import com.objetcpool.app.impl.poolable.*;
 import com.objetcpool.app.impl.factory.*;
-import com.objetcpool.app.impl.poolable.IPooledObject;
 
 
 public abstract class AbstractObjectPool<T extends IPooledObject> 
